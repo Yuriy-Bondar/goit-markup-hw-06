@@ -620,11 +620,14 @@ img {
 .subscribe-form {
     display: flex;
     margin-left: auto;
-    /* justify-content: flex-end; */
     align-items: flex-end;
 }
 
 .form-email {
+    display: flex;
+    flex-direction: column;
+}
+.div-input {
     display: flex;
     flex-direction: column;
 }
@@ -725,10 +728,6 @@ img {
     cursor: pointer;
 }
 
-/* .modal-form {
-  
-} */
-
 .modal-form>p {
     margin-bottom: 12px;
 
@@ -741,13 +740,13 @@ img {
     color: #212121;
 }
 
-.div-input {
+.item-input {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
 }
 
-.div-input:last-child {
+.item-input:last-child {
     margin-bottom: 20px;
 }
 
@@ -787,7 +786,6 @@ img {
 }
 
 .div-checkbox {
-    margin-top: 10px;
     margin-bottom: 30px;
 }
 
